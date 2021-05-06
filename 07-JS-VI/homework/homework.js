@@ -63,6 +63,12 @@ function filter(array) {
     }
   }
   return nuevoArray;
+
+  var filtro=array.filter(function(elemento){
+    if(elemento[0]=== "a"){
+      return elemento
+    }
+  })
 }
 
 // No modificar nada debajo de esta línea

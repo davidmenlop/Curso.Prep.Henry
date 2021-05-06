@@ -43,6 +43,7 @@ function agregarStringInvertida() {
     var fraseInvertida = '';
     for(var i= this.length - 1; i>=0; i--){
       fraseInvertida = fraseInvertida + this.charAt(i);
+      /*return this.split('').reverse().join('')*/
     }
     return fraseInvertida;
   };
